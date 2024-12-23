@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T12:36:57 IST" name="Default suite" finished-at="2024-12-14T12:36:57 IST" duration-ms="33">
+  <suite started-at="2024-12-23T15:12:40 IST" name="Default suite" finished-at="2024-12-23T15:12:40 IST" duration-ms="32">
     <groups>
     </groups>
-    <test started-at="2024-12-14T12:36:57 IST" name="Default test" finished-at="2024-12-14T12:36:57 IST" duration-ms="33">
+    <test started-at="2024-12-23T15:12:40 IST" name="Default test" finished-at="2024-12-23T15:12:40 IST" duration-ms="32">
       <class name="zz.com.Demo2.Day1">
-        <test-method signature="Day1()[pri:0, instance:zz.com.Demo2.Day1@769f71a9]" started-at="2024-12-14T12:36:57 IST" name="Day1" finished-at="2024-12-14T12:36:57 IST" duration-ms="5" status="FAIL">
+        <test-method signature="Day1()[pri:0, instance:zz.com.Demo2.Day1@1d9b7cce]" started-at="2024-12-23T15:12:40 IST" name="Day1" finished-at="2024-12-23T15:12:40 IST" duration-ms="4" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null
-at zz.com.Demo2.Day1.Day1(Day1.java:20)
+at zz.com.Demo2.Day1.Day1(Day1.java:37)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
